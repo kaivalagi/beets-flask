@@ -12,7 +12,7 @@ services:
     image: beets-flask
     restart: unless-stopped
     ports:
-      - 5001:5001
+      - 8337:5001
     environment:
       - PUID=568
       - PGID=568
